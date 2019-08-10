@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+body,html{
+    margin:0;
+    padding:0;
+    background:#eee9ed;
+}
+
+#header{
+    background:#e7e2e6;
+    width:100%;
+}
+.nav-topo{
+    width:68%;
+    /* background:#e7e2e6; */
+    display:flex;
+    justify-content: center;
+}   
+
+.nav-topo ul{
+    display: flex;
+    list-style:none;
+}
+
+.nav-topo ul li{
+    transition:.2s;
+    border-radius:5px;
+    margin:0 6px;
+    background:#f1f1f1;
+    padding:10px;
+}
+.nav-topo ul li:hover{transform:scale(1.05)}
+.nav-topo ul li a:hover{color:#333;}
+.nav-topo ul li a {
+    transition:.2s;
+    font-weight:bold;
+    text-decoration: none;
+    color:#4b70bd;
+    font-size:1.2rem;
+    font-family:"Montserrat", sans-serif;
+}
+
+/* Conteúdo */
+
+#content{
+    position:relative;
+    /* border:1px solid red; */
+    width:50%;
+    margin:0 auto;
+}
+
+#content h1{
+    font-weight: bold;
+    font-family:"Montserrat", sans-serif;
+}
+
+#content input[type="search"]{
+    transition:.2s;
+    outline:none;
+    width:80%;
+    border-radius:5px;
+    border:none;
+    padding:3% 2%;
+    font-size:1rem;
+    font-family:"Montserrat", sans-serif;
+}
+#content input[type="button"]:hover{background:#4b70bd;color:#fff}
+#content input[type="button"]{
+    transition:.2s;
+    outline:none;
+    border:none;
+    font-size:1rem;
+    font-weight: bold;
+    font-family:"Montserrat", sans-serif;
+    position: absolute;
+    width:20%;
+    padding:3%;
+    right:2px;
+    border-radius:5px;
+    background:#6a686b;
+    color:#fff;
+    margin:0;
+    cursor:pointer;
+}
+
+#content .table{
+    margin-bottom:2em;
+    background:#e4ebf5;
+    width:100%;
+}
+
+#content .table th{
+    font-family: "Montserrat", sans-serif;
+    font-size:1rem;
+    padding:2%;
+    background:#b2c9d8;
+}
+
+#content .table tbody td{
+    font-family: "Montserrat", sans-serif;
+    font-size:1rem;
+    padding:3.5%;
+    border-right:1px solid rgba(0,0,0,0.05);
+    border-bottom:1px solid rgba(0,0,0,0.05);
+    /* border:0.1px solid #fff; */
+}
+
+#content td button:hover{background:#333;}
+#content td button{
+    transition:.2s;
+    /* display:table; */
+    font-family: "Montserrat", sans-serif;
+    font-size:12px;
+    background:#f53f29;
+    text-decoration: none;
+    padding:3.8%;
+    width:100px;
+    outline:none;
+    cursor:pointer;
+    border-radius:5px;
+    color:#fff;
+    text-align:center;
+    border:2px solid black;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+}
