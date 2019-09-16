@@ -88,22 +88,6 @@ body,html{
     width:100%;
 }
 
-#content .table th{
-    font-family: "Montserrat", sans-serif;
-    font-size:1rem;
-    padding:2%;
-    background:#b2c9d8;
-}
-
-#content .table tbody td{
-    font-family: "Montserrat", sans-serif;
-    font-size:1rem;
-    padding:3.5%;
-    border-right:1px solid rgba(0,0,0,0.05);
-    border-bottom:1px solid rgba(0,0,0,0.05);
-    /* border:0.1px solid #fff; */
-}
-
 #content td button:hover{background:#333;}
 #content td button{
     transition:.2s;
